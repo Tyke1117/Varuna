@@ -2,7 +2,7 @@ import { createClient } from '@supabase/supabase-js';
 
 // Fallback Supabase configuration for PortsPilot AI
 // Primary project ID: osgteroqqxmnpqwvcrhc
-const defaultSupabaseUrl = 'https://osgteroqqxmnpqwvcrhc.supabase.co';
+const defaultSupabaseUrl = 'https://ynkrgfvnfdudpkviaqtr.supabase.co';
 const defaultAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.e30.dummy-anon-key';
 
 // If a token is in the hash, extract the issuer URL dynamically to guarantee 100% match
