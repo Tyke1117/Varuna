@@ -11,7 +11,7 @@ export const AuthCallbackPage: React.FC = () => {
   const navigate = useNavigate();
   const { confirmRoleSelection } = useAuth();
 
-  const [loading, setLoading] = useState(true);
+  const [, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [showRoleSelector, setShowRoleSelector] = useState(false);
   const [userName, setUserName] = useState('');
